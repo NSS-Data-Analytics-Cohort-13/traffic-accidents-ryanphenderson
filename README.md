@@ -17,19 +17,19 @@ Use formulas to answer each question. Unless otherwise stated, fill in your answ
 
 3. a. Create a new column to the right of the "Number of Motor Vehicles" column called "Single or Multiple". This column should contain "Single" if the number of vehicles is 1 and "Multiple" if it involved more than one vehicle.  
 b. Are there any rows that involved zero vehicles? How many? Make sure that your formula accounts for these cases.  
-c. Investigate the rows that have zero vehicles using the FILTER function in the "Zero Car Crashes" sheet. What do you find?  
+c. Investigate the rows that have zero vehicles using the FILTER function in the "Zero Car Crashes" sheet. What do you find?  >Zero Car accidents happened <10 times a year before October/November 2022. Perhaps a policy change affected the amount of reported zero car accidents.
 d. What percentage of crashes are single-car?
 
 4. How many accidents occurred which are hit and run and had at least one injury?
 
 5. a. What is the overall average number of injuries?  
-b. Go to the "Collision Types" sheet and fill in the table to find the total number of crashes, average number of injuries, and total number of injuries per collision type. For each calculation, write a single formula and copy it down the table. What do you find? (Hint: If you're not sure how to answer this question, revisit the "Conditional functions and lookups" chapter of [Data Analysis in Spreadsheets](https://app.datacamp.com/learn/courses/data-analysis-in-spreadsheets).)
+b. Go to the "Collision Types" sheet and fill in the table to find the total number of crashes, average number of injuries, and total number of injuries per collision type. For each calculation, write a single formula and copy it down the table. What do you find? (Hint: If you're not sure how to answer this question, revisit the "Conditional functions and lookups" chapter of [Data Analysis in Spreadsheets](https://app.datacamp.com/learn/courses/data-analysis-in-spreadsheets).) >Despite having a lower number of total accidents than some, head-on collisions had definitively the highest number of injuries, on average.
 
 6. Add four new columns, Month, Year, Hour, and Weekday to the right of the Date and Time column. Use the [TEXT function](https://support.microsoft.com/en-us/office/text-function-20d5ac4d-7b94-49fd-bb38-93d29371225c) to extract out the Month, Year, Hour, and Weekday from the "Date and Time" column.  
 
-7. Fill in the Hour table in the Analysis spreadsheet to find the number of accidents that occurred for each hour of the day. Again, write a single formula and copy it down the table. Do you see anything unusual? What might be the explanation for this?
+7. Fill in the Hour table in the Analysis spreadsheet to find the number of accidents that occurred for each hour of the day. Again, write a single formula and copy it down the table. Do you see anything unusual? What might be the explanation for this? >Accidents spike at the beginning and end of the work day, coinciding with rush hour.
 
-8. Do the same for the year and day of the week. What stands out?
+8. Do the same for the year and day of the week. What stands out? >Accidents are fewer on weekends, likely due to less traffic/no rush hour. Accidents were noticeably less in 2020 and 2021, since many were quarantined indoors. The entire dataset ends in June 2022, so the numbers for 2022 are significantly less than others.
 
 9. Add a column to the right of the Collision Type Code called "Collision Type". Use the table contained in the Collision Types sheet to fill in this column. 
 
